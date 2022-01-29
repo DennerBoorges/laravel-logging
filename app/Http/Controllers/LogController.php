@@ -9,7 +9,7 @@ class LogController extends Controller
     public function soma($num1, $num2)
     {
         $soma = $num1 + $num2;
-        logger()->info('Soma Feita');
+        logger()->info('Soma feita');
         return $soma;
     }
 
