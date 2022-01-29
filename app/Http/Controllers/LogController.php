@@ -16,7 +16,7 @@ class LogController extends Controller
     public function sub($num1, $num2)
     {
         $sub = $num1 - $num2;
-        logger()->debug('Sub Feita', ['num1' => $num1, 'num2' => $num2, 'sub' => $sub]);
+        logger()->debug('Sub feita', ['num1' => $num1, 'num2' => $num2, 'sub' => $sub]);
 
         // return $num1 . ' - ' . $num2 . '  sub =  '  . $sub;
     }
